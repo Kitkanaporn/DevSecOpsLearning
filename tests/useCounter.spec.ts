@@ -4,7 +4,7 @@ import useCounter from '../src/hooks/features/homepage/useCounter';
 describe('useCounter', () => {
   it('should initialize count to 0 and val to 1', () => {
     const { result } = renderHook(() => useCounter());
-    expect(result.current.count).toBe(0);
+  expect(result.current.count).toBe(0);
     expect(result.current.val).toBe(1);
   });
 
